@@ -1,7 +1,7 @@
 # BackGroundSlider-GO
 
 This is a simple BackGroundSlide jQuery Plug in.
-You can modify this plugin flexbly. I especially reccoment that you use this to create a dynamic full page background.
+You can modify this plugin in very flexible way. I especially recommend that you use this to create a dynamic full page background.
 please read the instruction below.
 
 ### step1
