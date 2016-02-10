@@ -28,3 +28,32 @@ link the css in head tag
 
     <link rel="stylesheet" href="style.css" type="text/css" />
 
+
+### step4
+call the function like below
+
+    $(document).ready(function(){
+    $("#slide").BackgroundSliderGO({
+        "NumberOfImgs"     : 5,            //NumberOfPictures Caution! It must be more than or equal to 2 and up to the       number of images in the folder 
+        "fadeSpeed"        : 2000,         //fadeIn-Out Speed
+		"imgDirectory"     : 'img/slide/', //the path to the slideImages folder. Dont foget "/" at the end
+		});
+    });
+
+### step5
+create div with the ID "slide"
+
+    <div id="slide">
+
+      <div id="content">
+       <!-- your content is here --> 
+        <h1>This is GoBackgroundSlide</h1>
+        <p>Hi, with this Jquery Script, you can easily simply modify the background slideShow to make your website more interactive 
+       <!-- your content is here --> 
+      </div>
+  
+      <!-- cover the whole slide with transparet blackMask --> 
+      <div id="blackMask">.</div>
+      <!-- cover the whole slide with transparet blackMask --> 
+  
+    </div>
