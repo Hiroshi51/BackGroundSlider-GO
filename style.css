@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* this is the minimized CSS, So you can modify whatever you like */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	width: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: #000;
+}
+h1, p {
+	color: white;
+}
+
+#blackMask, #fadeImg, #backImg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#blackMask {
+	z-index: -500;
+	background:url(img/dottedCover.png) repeat; 
+	font-size:1px;	
+}
+#fadeImg {
+	z-index: -1000;
+	background-image : url(img/wall1.jpg);
+	background-size : cover;
+	background-repeat : no-repeat;
+	background-position: center center;
+}
+#backImg {
+	z-index: -2000;
+	background-image : url(img/wall2.jpg);
+	background-size : cover;
+	background-repeat : no-repeat;
+	background-position: center center;
+}
+#content {
+	z-index: 1000;
+	width: 70%;
+	margin: 2.5% auto;
+	min-height: 100%;
+	position: relative;
+}
