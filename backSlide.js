@@ -10,7 +10,7 @@ $.fn.BackgroundSliderGO = function(settingOption) {
      //extend setting with settingOption
 	var setting = $.extend({          
 		"imgNumber1"    : 1,
-		"imgNumber2"    : 1, 
+		"imgNumber2"    : 2, 
 		"NumberOfImgs"  : 5,  
 		"loop"          : 0, 
         "fadeSpeed"     : 2000,   
